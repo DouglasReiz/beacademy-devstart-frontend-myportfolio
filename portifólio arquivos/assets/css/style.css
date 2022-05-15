@@ -149,7 +149,7 @@ header .container nav .menu-social{
     height: 30rem;
     background-color: var(--white-color);
     border-radius: 4px;
-    margin-right: 2rem;
+    margin-right: 1.6rem;
     cursor: pointer;
 }
 
