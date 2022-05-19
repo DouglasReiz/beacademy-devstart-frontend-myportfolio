@@ -188,6 +188,138 @@ header .container nav .menu-social{
     line-height: 3.9rem;
 }
 
+/* About */
+
+.s-about {
+    background-color: var(--black-color-medium);
+    padding: 6rem 0;
+}
+
+.s-about .container{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.s-about .container .about-me{
+    width: 100%;
+    max-width: 71rem;
+}
+
+.s-about .container .about-me h2{
+    font-weight: 900;
+}
+
+.s-about .container .about-me p {
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--white-color-alpha);
+    margin-top: 2.4rem;
+}
+
+.s-about .container .about-me ul{
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 3.2rem;
+}
+
+.s-about .container .about-me img{
+    border-radius: 4px;
+}
+
+.s-about .container .about-me img{
+    border-radius: 4px;
+}
+
+.s-about .container .my-picture{
+    border-radius: 3.9rem;
+}
+
+/* Cases */
+.s-cases{
+    padding: 5rem 0rem;
+}
+
+.s-cases .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.s-cases .container .title-cases{
+    margin-bottom: 7.4rem;
+}
+
+.s-cases .container .title-cases h2{
+    font-weight: 900;
+}
+
+.s-cases .container .cases{
+    display: flex;
+    width: 100%;
+}
+
+.s-cases .container .cases .case img{
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.s-cases .container .cases .case img:hover{
+    transform: translateY(-2%);
+}
+
+.s-cases .container .cases .case:nth-child(2){
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin-top: -1.6rem;
+}
+/*  Contact */
+.s-contact {
+    padding-top: 4rem;
+    padding-bottom: 13rem;
+    
+}
+
+.s-contact .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-contact .container .title-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 100%;
+    max-width: 34.3rem;
+}
+
+.s-contact .container .title-contact .tag{
+    width: 100%;
+    max-width: 13.2rem;
+}
+
+.s-contact .container .form-contact{
+    width:100%;
+    max-width: 48.6rem ;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:3.1rem;
+}
+
+
+
+.s-contact .container .form-contact .input-group input[type="email"]{
+    margin-bottom: 3.1rem;
+    
+}
+
+.input-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* Footer */
 
 footer{

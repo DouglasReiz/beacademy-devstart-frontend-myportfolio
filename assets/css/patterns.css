@@ -5,6 +5,7 @@
     --black-color-medium: #0c0c0c;
     --semi-black: #1e1e1e;
     --white-color: #ffffff;
+    --white-color-alpha: rgba(255,255,255,0.8);
 }
 
 .container{
@@ -73,3 +74,24 @@ h2 span{
     font-size: 1.3rem;
     font-weight: 300;
 }
+
+input[type="text"],
+input[type="email"],
+textarea{
+    background-color: var(--semi-black);
+    border: 0.1rem solid var(--semi-black);
+    border-radius: 0.4rem;
+    width: 100%;
+    padding: 2rem;
+    resize: none;
+    color: var(--white-color);
+    outline: none;
+    transition: all 0.4s;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover{
+    border: 1px solid var(--primary-color);
+}
+
