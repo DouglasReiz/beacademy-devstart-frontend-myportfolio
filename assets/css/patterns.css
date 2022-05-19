@@ -73,6 +73,7 @@ h2 span{
     background-color: var(--white-color);
     font-size: 1.3rem;
     font-weight: 300;
+    text-align: center;
 }
 
 input[type="text"],
