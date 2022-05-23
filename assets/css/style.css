@@ -63,7 +63,7 @@ header .container nav .menu-social li:hover{
 /* Section hero*/
 
 .s-hero{
-    background: url(../img/s-hero-bg.jpg);
+    background: url(../img/1101999.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -105,7 +105,7 @@ header .container nav .menu-social li:hover{
     line-height: 6rem;
     text-align: center;
     color: rgba(255,255,255,0.8);
-    margin-bottom: 2rem;
+    margin-bottom: 1.3rem;
 
 }
 
