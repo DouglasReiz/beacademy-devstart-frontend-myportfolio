@@ -104,7 +104,7 @@ header .container nav .menu-social li:hover{
     font-size: 1.8rem;
     line-height: 6rem;
     text-align: center;
-    color: rgba(255,255,255,0.8);
+    color: rgba(220, 246, 7, 0.8);
     margin-bottom: 1.3rem;
 
 }
@@ -258,7 +258,7 @@ header .container nav .menu-social li:hover{
     border-radius: 4px;
 }
 
-.s-about .container .about-me img{
+.s-about .container .about-me img:hover{
     border-radius: 4px;
 }
 
